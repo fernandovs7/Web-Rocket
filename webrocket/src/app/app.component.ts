@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'webrocket';
+  title = 'WebRocket';
+  name: string = 'Fernando';
+  address: string = 'Tres Ríos, Cartago';
+  phone: string = '8723-3116';
 }
